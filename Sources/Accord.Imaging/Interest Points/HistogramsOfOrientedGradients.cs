@@ -48,6 +48,7 @@ namespace Accord.Imaging
     ///   </list></para>
     /// </remarks>
     /// 
+    [Serializable]
     public class HistogramsOfOrientedGradients : IFeatureDetector<FeatureDescriptor>
     {
 
